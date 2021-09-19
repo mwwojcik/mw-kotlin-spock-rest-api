@@ -10,6 +10,7 @@ plugins {
     id 'org.jetbrains.kotlin.plugin.spring' version '1.5.30'
 }
 
+
 project.ext.versions=[
         kotlin: '1.5.30'
 ]
@@ -23,6 +24,7 @@ repositories {
 }
 
 dependencies {
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8' , version: versions.kotlin
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

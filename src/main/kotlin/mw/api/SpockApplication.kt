@@ -1,4 +1,4 @@
-package mw.api.spock
+package mw.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
